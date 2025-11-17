@@ -8,7 +8,7 @@ export default function Home() {
           🌳 InfoTree
         </h1>
         <p className="text-center mt-4 text-gray-600">
-          미얀마인을 위한 한국어 학습 앱 test
+          미얀마인을 위한 한국어 학습 앱
         </p>
       </div>
     </div>
