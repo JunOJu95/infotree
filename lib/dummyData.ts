@@ -10,7 +10,7 @@ export const categories: Category[] = [
   {
     id: 1,
     name_ko: "인사말",
-    name_mm: "မင်္ဂလာဆောင်စကား",
+    name_mm: "နှုတ်ခွန်းဆက်စကား",
     emoji: "👋",
     phraseCount: 25,
   },
@@ -31,7 +31,7 @@ export const categories: Category[] = [
   {
     id: 4,
     name_ko: "교통",
-    name_mm: "ယာဉ်ပြေး",
+    name_mm: "လမ်းပန်းဆက်သွယ်ရေး",
     emoji: "🚌",
     phraseCount: 25,
   },
@@ -45,7 +45,7 @@ export const categories: Category[] = [
   {
     id: 6,
     name_ko: "긴급상황",
-    name_mm: "အရေးပေါ်",
+    name_mm: "အရေးပေါ်အခြေအနေ",
     emoji: "🆘",
     phraseCount: 25,
   },
