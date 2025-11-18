@@ -1,3 +1,4 @@
+import CategoryCard from "@/components/CategoryCard";
 import { categories } from "@/lib/dummyData";
 
 export default function Home() {
@@ -11,27 +12,9 @@ export default function Home() {
           미얀마인을 위한 한국어 학습
         </p>
 
-        <div className="mt-8 space-y-3">
+        <div className="grid grid-cols-2 gap-4 mt-8">
           {categories.map((category) => (
-            <div
-              key={category.id}
-              className="flex items-center justify-between rounded-xl bg-white shadow-sm px-4 py-3"
-            >
-              <div className="flex items-center gap-3">
-                <span className="text-2xl">{category.emoji}</span>
-                <div>
-                  <div className="font-semibold text-gray-900">
-                    {category.name_ko}
-                  </div>
-                  <div className="text-xs text-gray-500">
-                    {category.name_mm}
-                  </div>
-                </div>
-              </div>
-              <span className="text-xs text-gray-500">
-                {category.phraseCount} 문장
-              </span>
-            </div>
+            <CategoryCard key={category.id} category={category} />
           ))}
         </div>
       </div>
